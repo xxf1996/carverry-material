@@ -1,0 +1,15 @@
+build/
+config/
+dist/
+
+node_modules
+lib
+
+*.md
+*.sh
+*.woff
+*.ttf
+*.py
+
+.eslintrc.js
+package-lock.json
