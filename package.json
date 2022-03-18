@@ -7,6 +7,10 @@
   "scripts": {
     "cz": "git add . && git cz"
   },
+  "keywords": [
+    "carverry",
+    "carverry material"
+  ],
   "peerDependencies": {
     "element-plus": ">=1.0.0",
     "typescript": ">=4.0.0",

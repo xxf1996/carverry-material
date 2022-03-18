@@ -13,7 +13,7 @@
     "lib": ["esnext", "dom"],
     "baseUrl": "./",
     "paths": {
-      "@/*": ["src/*"] // 路径alias
+      "@/*": ["src/*"]
     }
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/**/*.js", "global.d.ts"],
