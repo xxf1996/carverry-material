@@ -10,6 +10,6 @@ import { stringProps } from '@/composition/props';
 
 const props = defineProps({
   /** 写点什么 */
-  name: stringProps(),
+  name: stringProps('这里是文字'),
 });
 </script>
