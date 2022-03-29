@@ -5,7 +5,11 @@
   "author": "xiexuefeng <1158231926@qq.com>",
   "license": "MIT",
   "scripts": {
-    "cz": "git add . && git cz"
+    "cz": "git add . && git cz",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "test": "vitest",
+    "test:coverage": "vitest --coverage"
   },
   "keywords": [
     "carverry",
@@ -17,21 +21,39 @@
     "vue": ">=3.2.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@storybook/addon-actions": "^6.5.0-alpha.51",
+    "@storybook/addon-essentials": "^6.5.0-alpha.51",
+    "@storybook/addon-links": "^6.5.0-alpha.51",
+    "@storybook/vue3": "^6.5.0-alpha.51",
+    "@types/react": "file:stub/types__react",
     "@typescript-eslint/eslint-plugin": "^5.15.0",
     "@typescript-eslint/parser": "^5.15.0",
+    "@vitejs/plugin-vue": "^2.2.4",
     "@vue/eslint-config-airbnb": "^6.0.0",
+    "@vue/test-utils": "^2.0.0-rc.17",
+    "@vue/tsconfig": "^0.1.3",
+    "babel-loader": "^8.2.4",
+    "c8": "^7.11.0",
     "cz-conventional-changelog": "^3.3.0",
     "element-plus": "^2.1.4",
     "eslint": "^8.11.0",
     "eslint-config-airbnb-typescript": "^16.1.2",
     "eslint-plugin-vue": "^8.5.0",
+    "jsdom": "^19.0.0",
+    "storybook-builder-vite": "^0.1.22",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.2",
-    "vue": "^3.2.31"
+    "unplugin-element-plus": "^0.3.2",
+    "vite": "^2.8.6",
+    "vitest": "^0.7.12",
+    "vue": "^3.2.31",
+    "vue-loader": "^16.8.3"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "dependencies": {}
 }

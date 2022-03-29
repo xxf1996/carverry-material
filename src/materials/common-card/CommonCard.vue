@@ -18,6 +18,7 @@
 </template>
 
 <script lang="ts" setup>
+import { ElCard } from 'element-plus';
 import { stringProps } from '@/composition/props';
 
 const props = defineProps({
