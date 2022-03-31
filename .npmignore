@@ -1,0 +1,7 @@
+.storybook
+.vscode
+coverage
+node_modules
+src
+stub
+vite.config.ts
