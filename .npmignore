@@ -5,3 +5,7 @@ node_modules
 src
 stub
 vite.config.ts
+yarn.lock
+tsconfig.json
+.eslintrc.json
+.eslintignore

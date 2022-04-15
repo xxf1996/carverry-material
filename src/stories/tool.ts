@@ -1,5 +1,4 @@
 /* eslint-disable no-restricted-syntax */
-/* eslint-disable import/no-extraneous-dependencies */
 import { ArgTypes, Story } from '@storybook/vue3';
 import { Component } from 'vue';
 
