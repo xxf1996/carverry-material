@@ -12,7 +12,8 @@
     "test:coverage": "vitest --coverage",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "build": "carverry material build",
-    "prepublish": "yarn build && yarn changelog"
+    "prepublish": "yarn build",
+    "postpublish": "yarn changelog"
   },
   "keywords": [
     "carverry",
@@ -59,5 +60,10 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
+  "homepage": "https://github.com/xxf1996/carverry-material",
+  "repository": {
+    "url": "https://github.com/xxf1996/carverry-material"
+  },
+  "description": "基于carverry的示例物料仓库",
   "dependencies": {}
 }
