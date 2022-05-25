@@ -1,11 +1,14 @@
 <template>
   <el-card
+    class="common-card"
     :body-style="{ padding: '0px' }"
     shadow="hover"
   >
     <template #header>
-      <h5>{{ title }}</h5>
-      <div class="flex items-center gap-2">
+      <h5 class="common-card__title">
+        {{ title }}
+      </h5>
+      <div class="common-card__btns">
         <!-- @slot 按钮配置区 -->
         <slot name="btns" />
       </div>
@@ -32,3 +35,23 @@ const emit = defineEmits<{
 
 emit('init');
 </script>
+
+<style scoped>
+.common-card >>> .el-card__header {
+  display: flex;
+  padding: 8px;
+}
+
+.common-card__title {
+  flex: 1;
+  margin: 0px;
+  margin-block: auto;
+  font-size: 16px;
+}
+
+.common-card__btns {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+</style>
